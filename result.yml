@@ -2,7 +2,7 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: 3
+      - id: 1
         uri: test
         filters:
         - name: filters1
@@ -16,5 +16,9 @@ spring:
         uri: test
         filters:
         - name: filters2
+          args:
+            key: message
+        predicate:
+        - name: predicates2
           args:
             key: message
