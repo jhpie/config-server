@@ -2,8 +2,8 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: 11
-        uri: test11
+      - id: 1
+        uri: test
         filters:
         - name: filters1
           args:
