@@ -8,17 +8,3 @@ spring:
         - name: filters1
           args:
             key: message
-        predicate:
-        - name: predicates1
-          args:
-            key: message
-      - id: 2
-        uri: test
-        filters:
-        - name: filters2
-          args:
-            key: message
-        predicate:
-        - name: predicates2
-          args:
-            key: message
